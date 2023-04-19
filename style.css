@@ -1,0 +1,54 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background: linear-gradient( to left bottom, lightblue, lightgreen);
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    background: rgba(255, 255, 255, .3);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    font-size: 25px;
+}
+.bmi-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.input{
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, .4);
+    font-size: 16px;
+    color: darkgreen;
+}
+.btn{
+    margin: 8px 0px;
+    padding: 8px;
+    border: none;
+    background: darkcyan;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.result{
+    margin-bottom: 8px;
+}
+.inpt-result{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    color: darkolivegreen;
+}
